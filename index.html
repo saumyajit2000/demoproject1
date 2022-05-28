@@ -1,0 +1,399 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+margin: 0;
+padding: 0;
+overflow-x: hidden;
+}
+
+.topnav{
+width: 40rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+        .Main-text{width: 100rem;
+                   
+                   position: absolute;
+                   padding: 50px;
+                   margin-top: 10rem;
+                   margin-left: 4rem;
+                   border-color: aqua ;}
+
+        .container{
+            display: grid;
+        }
+
+        .left{
+            width: 40rem;
+            
+            position: absolute;
+            padding: 50px;
+            grid-column: 1;
+        }
+
+        .topnav{
+            position: absolute;
+        }
+
+        .right{
+            float: right;
+            grid-column: 2;        }
+
+        #profile-pic{
+                        position: relative;
+                        float: right;
+                        margin-right: 3rem;
+                        flex-direction: column;
+                    }
+
+        .rightgreen{
+            width: 20rem;
+            height: 20rem;
+            background-color: lawngreen;
+            position: absolute;
+            margin-left: 70rem;
+            padding: 0px;
+            color: green;
+            
+        }
+        .rightgreen2{
+            width: 35rem;
+            height: 25rem;
+            margin-top: 65rem;
+            background-color: lawngreen;
+            position: absolute;
+            margin-left: 85rem;
+            padding: 0px;
+            color: green;
+        }
+
+        button{
+            margin-top: 16rem;
+            margin-left: 6rem;
+            background-color: lawngreen;
+            font-size: 25;
+            z-index: 1;
+        }
+
+        #bgimg{
+            margin-top: 50rem;
+            position: absolute;
+        }
+
+        .textmiddle{
+            margin-top: 51rem;
+            margin-left: 5rem;
+            font-size: 80;
+            position: absolute;
+        }
+
+        .textmiddle2{
+            position: absolute;
+            margin: 50rem;
+            margin-left: 40rem;
+            width: 40rem;
+        }
+
+div.gallery {
+  margin: 150px;
+  /* border: 1px solid #ccc; */
+  float: left;
+  width: 180px;
+  margin-left: 16rem;
+  margin-bottom: 5rem;
+  align-content: center;
+  align-items: center;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+
+.middlepart{
+  margin-top: 70rem;
+  position: absolute;
+  align-items: center;
+  /* margin-left: 20rem; */
+}
+
+.proudpart{
+  margin-top: 65rem;
+  position: absolute;
+}
+.pt11{
+  display: grid;
+  margin-top: 100px;
+}
+.pt12{
+  grid-column: 1;
+  width: 17rem;
+  height: 2rem;
+  margin-left: 10rem;
+}
+.pt21{
+  grid-column: 2;
+  width: 17rem;
+  height: 2rem;
+  margin-left: 10rem;
+}
+
+
+.wrapper {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper > div {
+  flex: 1 1 150px;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50rem;
+  height: 55rem;
+  padding: 0 4px;
+  margin-left: 70rem;
+  position: absolute;
+  margin-top: 100rem;
+  flex-direction:column;
+  justify-content: center;
+  align-content: flex-start;
+
+}
+
+.lowertext{
+  position: absolute;
+  margin-top: 110rem;
+  margin-left: 15rem;
+}
+
+.contact{
+  width: 45rem;
+  height: 20rem;
+  margin-top: 155rem;
+  background-color: lawngreen;
+  position: absolute;
+  justify-content: center;
+}
+
+.contactimages{
+  margin-top: 12rem;
+  margin-left: 12rem;
+}
+
+.contact img{
+  height: auto;
+  width: 30px;
+  align-content: center;
+}
+
+.lwl{
+  position: absolute;
+  margin-top: 168rem;
+  margin-left: 100rem;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#education">Education</a>
+        <a href="#achievement">Achievement</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="rightgreen"></div>
+    
+      <div class="Main-text">
+          <div class="left"><h1>Rachel Green</h1>
+            <p>Born and brought up in San Francisco, California, I am an aquarian
+            who just turned 13 years old. Just so you know, I am the crazy
+            acquarian everyone warned you about. On one side, I love exploring
+            different things. On the other side, I do have a serious goal of
+            becoming an entreprenuer.</p>
+            <p>
+            Fun and super cool with a contagious disease called AWESOME -
+            Thats who I am.</p>
+  </div>
+          <div class="right">
+              <img src="profile-pic.png" alt="">
+              
+          </div>
+
+          <Button href="#">Lets Talk</Button>
+
+      </div>
+
+
+
+      <div>
+          <img src="bg.png" alt="" id="bgimg">
+          <h1 class="textmiddle">My <br>Main <br> Hustle</h1>
+          <div class="textmiddle2">
+            <h3>Aug 2019 - Jun 2020</h3>
+            <h4>Sunbeam Sr. Secondary School</h4>
+            <p>I’ve bagged a lot of prizes both in Academics & Extracurriculars. These
+                are some of the achievements I’m most proud of.</p>
+
+                <h3>Aug 2019 - Jun 2020</h3>
+            <h4>Sunbeam Sr. Secondary School</h4>
+            <p>I’ve bagged a lot of prizes both in Academics & Extracurriculars. These
+                are some of the achievements I’m most proud of.</p>
+          </div>
+      </div>
+
+      <div class="middlepart">
+          <h1>My work</h1>
+          <br>
+          <br>
+          <p>“I love coding & ever since I took up ProGrad Junior, I’ve built some cool projects. I’ve also
+            picked up HTML, CSS & JavaScript”</p>
+
+            <div>
+                <div class="gallery">
+                    <a target="_blank" href="recipe.png">
+                      <img src="recipe.png" alt="Cinque Terre" width="600" height="420">
+                    </a>
+                    <div class="desc">
+                      Recipe Web Page<br>
+                      I built a Dalgona Coffee .</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="#">
+                      <img src="emoji.png" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                  </div>
+                  
+                  <div class="gallery">
+                    <a target="_blank" href="img_lights.jpg">
+                      <img src="guess-the-number.png" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                  </div>
+                
+            </div>
+
+            <div>
+              <div class="gallery">
+                  <a target="_blank" href="img_5terre.jpg">
+                    <img src="rock-paper-scissors.png" alt="Cinque Terre" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                
+                <div class="gallery">
+                  <a target="_blank" href="img_forest.jpg">
+                    <img src="pokemon.png" alt="Forest" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+                
+                <div class="gallery">
+                  <a target="_blank" href="img_lights.jpg">
+                    <img src="e-birthday-card.png" alt="Northern Lights" width="600" height="400">
+                  </a>
+                  <div class="desc">Add a description of the image here</div>
+                </div>
+              
+              </div>
+    
+
+      
+
+      <div>
+        <div class="rightgreen2"><h1>I'm <br>Proud <br> Of</h1></div>
+
+        <div class="proudpart">
+          <div class="pt11">
+          <p class="pt12">Was awarded ‘Best Performer of
+            the Batch 2018’ for consistent
+            performance in academic for 3
+            consequetive years.</p>
+
+            <p class="pt21">Topped my class with a CPGA of
+              9.2.</p>
+        </div>
+
+        <div class="pt11">
+            <p class="pt12">Currently, taking up “ProGrad
+              Junior Certification Program”. Links
+              to some of my projects -
+              https://github.io/rachel/game1</p>
+
+              <p class="pt21">Vice Captain, Sports Club of
+                Sunbeam SSC. Bagged several
+                prizes in Running (100 m), Dodge
+                ball, Archery, Regional Badminton
+                tornaments etc.</p>
+
+        </div>
+
+        <div class="pt11">
+          <p class="pt12">Member of #include - A global
+            coding club for passionate coders</p>
+        </div>
+
+
+        </div>
+      </div>
+
+
+      
+        <div class="row">
+           
+            <img class="item1" src="guitar.png" alt="Example image">
+            <img class="item2" src="painting.png" alt="Example image">
+            <img class="item3" src="friends.png" alt="Example image">
+            <img class="item4" src="badminton.png" alt="Example image">   
+            <img class="item5" src="reading.png" alt="Example image"> 
+           
+        </div>
+
+
+        <div class="lowertext">
+          <h1>My<br> Side <br>Husstle</h1>
+          <p>When I’m free, you’ll find me doing one of these.<br>
+            Honestly, I hate to laze around!</p>
+        </div>
+     
+
+      <div>
+
+        <div class="contact">
+        
+        <div class="contactimages">
+        <p>Contact<br><a href="#">rachelgreen@gmail.com</a><br>
+        <img src="instagram.png" alt="">
+        <img src="youtube.png" alt="">
+        <img src="facebook.png" alt="">
+
+        </div>
+        
+        </div>
+
+      </div>
+
+
+      
+        <p class="lwl">ALl Rights Reserved.</p>
+      
+
+</body>
+</html>
